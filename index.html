@@ -11,6 +11,8 @@
     <h2>Web3</h2>
     <p>Initialized <code>Web3</code> object for easy interfacing of Ethereum JavaScript API.</p>
     <dl>
+      <dt>Connected Ethereum node (Web3 provider)</dt>
+      <dd id="provider"></dd>
       <dt>Latest block</dt>
       <dd id="latest-block"></dd>
       <dt>Accounts</dt>
@@ -19,8 +21,15 @@
 
     <hr>
     <h2>MyToken</h2>
+    <p>Instantiated (deployed) MyToken is available as <code>MyToken</code>.</p>
+    <dl>
+      <dt>Initial supply of MyToken</dt>
+      <dd id="initial-supply"></dd>
+    </dl>
+
     <hr>
     <h2>tokenRecipient</h2>
+    <p>If a <code>.sol</code> file contains more than one contracts, individual instantiated contracts are also available. See <code>console.log(tokenRecipient)</code>.</p>
     <hr>
     <p>View Web Inspector for <code>console.log()</code> of each of the above components.</p>
 

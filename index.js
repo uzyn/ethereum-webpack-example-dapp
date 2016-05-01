@@ -5,9 +5,16 @@
 import { tokenRecipient, MyToken, web3 } from './contract/MyToken.sol';
 
 window.onload = () => {
+  provider();
   latestBlock();
   listAccounts();
+
+  initialSupply();
 };
+
+function provider() {
+  document.getElementById('provider').innerHTML = web3.currentProvider.host;
+}
 
 function latestBlock() {
   document.getElementById('latest-block').innerHTML = web3.eth.blockNumber;
@@ -20,6 +27,10 @@ function listAccounts() {
     html += `${account}<br>\n`;
   }
   document.getElementById('list-accounts').innerHTML = html;
+}
+
+function initialSupply() {
+  document.getElementById('initial-supply').innerHTML = MyToken.totalSupply();
 }
 
 console.log(web3);
