@@ -5,22 +5,14 @@
 import { tokenRecipient, MyToken, web3 } from './contract/MyToken.sol';
 
 window.onload = () => {
-  provider();
-  latestBlock();
-  listAccounts();
-
-  initialSupply();
+  renderWeb3Details();
+  renderTokenDetails();
 };
 
-function provider() {
+function renderWeb3Details() {
   document.getElementById('provider').innerHTML = web3.currentProvider.host;
-}
-
-function latestBlock() {
   document.getElementById('latest-block').innerHTML = web3.eth.blockNumber;
-}
 
-function listAccounts() {
   const accounts = web3.eth.accounts;
   let html = '';
   for (let account of web3.eth.accounts) {
@@ -29,8 +21,11 @@ function listAccounts() {
   document.getElementById('list-accounts').innerHTML = html;
 }
 
-function initialSupply() {
-  document.getElementById('initial-supply').innerHTML = MyToken.totalSupply();
+function renderTokenDetails() {
+  document.getElementById('token-name').innerHTML = MyToken.name();
+  document.getElementById('token-symbol').innerHTML = MyToken.symbol();
+  document.getElementById('total-supply').innerHTML = MyToken.totalSupply();
+  document.getElementById('version').innerHTML = MyToken.version();
 }
 
 console.log(web3);

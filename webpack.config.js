@@ -5,6 +5,11 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
+  web3Loader: {
+    constructorParams: {
+      MyToken: [ 250000, 'The Coin', 2, 'TC$', '1.0.0' ]
+    }
+  },
   module: {
     loaders: [
       {
