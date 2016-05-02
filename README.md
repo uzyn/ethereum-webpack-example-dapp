@@ -1,4 +1,7 @@
+![ethereum plus webpack](ethereum-plus-webpack.png)
+
 # Ethereum Webpack Example Dapp
+
 Example Ethereum (Solidity) smart contract decentralized app with Webpack, demonstrating the following features and behaviors:
 
 - Simple Ethereum decentralized app (dapp) with:
