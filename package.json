@@ -1,6 +1,6 @@
 {
   "name": "ethereum-webpack-example-dapp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Example Ethereum (Solidity) smart contract decentralized app with Webpack.",
   "main": "index.js",
   "scripts": {
