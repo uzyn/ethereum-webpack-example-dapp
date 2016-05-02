@@ -54,7 +54,7 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
 
 ## Additional notes
 
-1. web3-loader can be further configured, for example to reuse a deployed contract instead of reploying at every build. See [web3-loader's README](https://github.com/uzyn/web3-loader) for more details.
+1. web3-loader can be further configured, for example to reuse a deployed contract instead of redeploying at every build. See [web3-loader's README](https://github.com/uzyn/web3-loader) for more details.
 
 1. Similarly for [solc-loader](https://github.com/uzyn/solc-loader).
 
