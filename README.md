@@ -7,6 +7,7 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
 - Simple Ethereum decentralized app (dapp) with:
   - Smart contract written in Solidity
   - A simple viewer written in Vanilla JavaScript.
+- Minimal reinvention. Using only tools that are already familiar for front-end JavaScript developers.
 - Smart contract is based on The Coin [from a tutorial on ethereum.org](https://www.ethereum.org/token).
 - Direct importing of Solidity code and instantiation of smart contract via [Webpack](https://webpack.github.io) through [solc-loader](https://github.com/uzyn/solc-loader) and [web3-loader](https://github.com/uzyn/web3-loader).
   - Interfacing with smart contracts is as simple as `import { My Token } from './contract/MyToken.sol'`.
