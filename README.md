@@ -17,7 +17,7 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
 
 ## How to run
 
-1. Run a local Ethereum node with JSON-RPC listening at port 8545 _(default)_. [testrpc](https://github.com/ethereumjs/testrpc) would be the most straight-forward way.
+1. Run a local Ethereum node with JSON-RPC listening at port 8545 _(default)_. [testrpc](https://github.com/ethereumjs/testrpc) would be the most straight-forward method.
 
   ```bash
   # Using testrpc (recommended)
@@ -42,7 +42,7 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
 
   Once webpack build is done (`bundle.js` is generated), open `index.html` in your favorite web browser.
 
-  Webpack is now started in `--watch` mode, any changes done at the JavaScript or Solidity files would automatically rebuild the affected modules.
+  Webpack is now started in `--watch` mode, any changes done at JavaScript or Solidity files would automatically rebuild the affected modules.
 
 1. Build, for deployment
 
@@ -50,7 +50,7 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
   npm run build
   ```
 
-  Upload just `index.html` and `bundle.js` to your server.
+  Only `index.html` and `bundle.js` are required to be hosted and served.
 
 ## Additional notes
 
