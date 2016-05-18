@@ -40,7 +40,7 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
   npm start
   ```
 
-  Once webpack build is done (`bundle.js` is generated), open `index.html` in your favorite web browser.
+  Once webpack build is done, open `index.html` in your favorite web browser.
 
   Webpack is now started in `--watch` mode, any changes done at JavaScript or Solidity files would automatically rebuild the affected modules.
 
@@ -50,7 +50,19 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
   npm run build
   ```
 
-  Only `index.html` and `bundle.js` are required to be hosted and served.
+  Only the `static` directory is required to be hosted and served.
+
+1. Run tests
+
+  ```bash
+  npm test
+  ```
+
+1. Start testrpc and tests concurrently
+
+  ```bash
+  npm run test-testrpc
+  ```
 
 ## Additional notes
 

@@ -1,9 +1,13 @@
+var path = require("path");
+
 module.exports = {
   entry: [
     './index',
   ],
   output: {
-    filename: 'bundle.js'
+    path: path.resolve('./static/bundles/'),
+    publicPath: '/static/bundles/',
+    filename: "[name].js"
   },
   web3Loader: {
     constructorParams: {
@@ -27,5 +31,6 @@ module.exports = {
         include: __dirname,
       },
     ]
-  }
+  },
+  plugins: []
 };
