@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "build-production": "webpack --config webpack.config-production.js",
+    "test": "mocha-webpack --growl",
+    "test-testrpc": "concurrently --kill-others -s first 'testrpc' 'npm run test'"
   },
   "repository": {
     "type": "git",
@@ -33,6 +36,12 @@
     "solc-loader": "1.x",
     "web3": "^0.15.3",
     "web3-loader": "1.x",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "mocha": "*",
+    "chai": "*",
+    "mocha-webpack": "*",
+    "source-map-support": "*",
+    "webpack-node-externals": "*",
+    "concurrently": "*"
   }
 }
