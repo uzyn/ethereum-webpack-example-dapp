@@ -4,4 +4,4 @@ node_js:
   - "5"
   - "4"
 before_script:
-    - npm install -g testrpc
+    - npm install -g ethereumjs-testrpc
