@@ -39,6 +39,7 @@
     "mocha": "*",
     "chai": "*",
     "mocha-webpack": "*",
-    "source-map-support": "*"
+    "source-map-support": "*",
+    "webpack-node-externals": "*"
   }
 }
