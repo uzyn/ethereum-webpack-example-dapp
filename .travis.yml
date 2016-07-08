@@ -14,4 +14,3 @@ addons:
 before_script:
     - npm install -g ethereumjs-testrpc
     - testrpc &
-

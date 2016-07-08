@@ -7,8 +7,7 @@
     "start": "webpack --watch",
     "build": "webpack",
     "build-production": "webpack --config webpack.config-production.js",
-    "test": "mocha-webpack",
-    "test-standalone": "concurrently --kill-others -s first 'testrpc' 'npm run test'"
+    "test": "mocha-webpack"
   },
   "repository": {
     "type": "git",
@@ -39,9 +38,6 @@
     "webpack": "^1.13.0",
     "mocha": "*",
     "chai": "*",
-    "mocha-webpack": "*",
-    "source-map-support": "*",
-    "webpack-node-externals": "*",
-    "concurrently": "*"
+    "mocha-webpack": "*"
   }
 }
