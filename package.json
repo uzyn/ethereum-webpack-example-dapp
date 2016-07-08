@@ -38,6 +38,7 @@
     "webpack": "^1.13.0",
     "mocha": "*",
     "chai": "*",
-    "mocha-webpack": "*"
+    "mocha-webpack": "*",
+    "source-map-support": "*"
   }
 }
