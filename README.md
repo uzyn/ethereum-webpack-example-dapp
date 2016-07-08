@@ -1,6 +1,6 @@
 ![ethereum plus webpack](ethereum-plus-webpack.png)
 
-# Ethereum Webpack Example Dapp
+# Ethereum Webpack Example Dapp [![Build Status](https://travis-ci.org/uzyn/ethereum-webpack-example-dapp.svg?branch=master)](https://travis-ci.org/uzyn/ethereum-webpack-example-dapp)
 
 Example Ethereum (Solidity) smart contract decentralized app with Webpack, demonstrating the following features and behaviors:
 
@@ -56,12 +56,6 @@ Example Ethereum (Solidity) smart contract decentralized app with Webpack, demon
 
   ```bash
   npm test
-  ```
-
-1. Start testrpc and tests concurrently
-
-  ```bash
-  npm run test-testrpc
   ```
 
 ## Additional notes
