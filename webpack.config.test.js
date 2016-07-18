@@ -1,6 +1,4 @@
 var nodeExternals = require('webpack-node-externals');
-var path = require("path");
-// Extends base config
 var config = require('./webpack.config.js');
 
 config.output = {
@@ -9,11 +7,11 @@ config.output = {
 };
 
 // Set target to node to be runable within Mocha
-config.target = "node";
+config.target = 'node';
 
 config.externals = [nodeExternals()];
 
 // Enable source maps
-config.devtool = "cheap-module-source-map";
+config.devtool = 'cheap-module-source-map';
 
 module.exports = config;
