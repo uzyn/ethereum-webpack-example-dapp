@@ -6,7 +6,6 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
-    "build-production": "webpack --config webpack.config-production.js",
     "test": "mocha-webpack"
   },
   "repository": {
