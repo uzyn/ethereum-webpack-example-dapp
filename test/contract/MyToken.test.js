@@ -1,8 +1,8 @@
-import { MyToken, web3 } from '../contract/MyToken.sol';
+import { MyToken, web3 } from '../../contract/MyToken.sol';
 
 var assert = require('chai').assert;
 
-describe('MyToken', function() {
+describe('MyToken', function () {
   describe('totalSupply()', function () {
     it('should return the correct value', function () {
       assert.equal(MyToken.totalSupply().toNumber(), 250000);
