@@ -1,1 +1,1 @@
-require('./app/app.js');
+require('./dapp/index.js');
