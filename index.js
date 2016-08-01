@@ -1,1 +1,1 @@
-require('./dapp/index.js');
+require('./client/index.js');
