@@ -40,5 +40,8 @@
     "mocha-webpack": "*",
     "source-map-support": "*",
     "webpack-node-externals": "*"
+  },
+  "dependencies": {
+    "solc": "^0.4.25"
   }
 }
